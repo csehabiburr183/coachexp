@@ -1,0 +1,269 @@
+*{
+	margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+body,html{
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+.container{
+	width: 1140px;
+}
+.DisFlow{
+	overflow: hidden;
+}
+
+
+/*======== Main CSS Below ======*/
+
+
+
+/* Code For Top Header */
+ul.RightTopIcon {
+    float: right;
+}
+
+ul.RightTopIcon li {
+    float: left;
+}
+
+.RightHeaderPart {
+    width: 250px;
+    float: right;
+}
+
+.leftHeaderInfo {
+    float: left;
+    width: 870px;
+}
+
+ul.LeftInfo li {float: left;line-height: 43px;padding: 0px 7px;}
+
+ul.RightTopIcon li a i {
+    color: #CCCCCC;
+    margin: 5px;
+    background: #5C5C5C;
+    padding: 10px;
+    border-radius: 50%;
+    width: 17px;
+    transition: all 0.8s;
+    display: grid;
+    place-items: center;
+}
+section#HeaderTop {
+    background: #333333;
+    display: block;
+    overflow: hidden;
+}
+
+ul.LeftInfo li a {
+    color: #f1f1f1;
+    padding: 0px 5px;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+ul.LeftInfo li span i {
+    color: #00C3D1;
+}
+
+ul.LeftInfo li a:hover {
+    color: #ffb101;
+}
+ul.RightTopIcon li a i:hover {
+    background: white;
+    color: #00C3D1;
+}
+
+
+/* Primary Menu Code Below */
+
+
+.logoSection {
+    width: 200px;
+    float: left;
+    padding: 10px 44px;
+}
+
+.PrimaryMenuPart {
+    width: 900px;
+    display: table-cell;
+}
+
+ul.PrimaryNav {
+    float: right;
+}
+
+ul.PrimaryNav li {
+    float: left;
+    line-height: 47px;
+}
+
+ul.PrimaryNav li a:hover {
+    background: #00C2D1;
+    color: #ffffff;
+    border-bottom: 1px solid red;
+}
+
+header#MainHeader {
+    display: -webkit-box;
+    background: #f9f9f9;
+    position: sticky;
+    top: 0;
+}
+
+ul.PrimaryNav li a {
+    padding: 14px;
+    display: block;
+    color: #414242;
+    font-size: 17px;
+    transition: background 0.3s;
+}
+
+/*
+========================
+	Work Section Below
+========================
+*/
+
+section#WorkSection {
+    background: linear-gradient(#000000b8,#00000069),url(img/work_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.workBox {
+    color: white;
+    width: 500px;
+    float: left;
+    padding: 85px 55px;
+}
+.workBox h4 {
+    padding: 15px 0px;
+    font-size: 28px;
+}
+
+.workBox h2 {
+    font-size: 50px;
+}
+
+.workBox p {
+    padding: 20px 0px 57px 0px;
+    line-height: 24px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+a.ContactWork {
+    background: #01C2D1;
+    color: #fffdfd;
+    padding: 11px 25px;
+    font-weight: 300;
+}
+
+
+
+
+/* 
+	Professional Consulting Mentor below  
+*/
+
+
+
+.MentorSec {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#MentorConsultant {
+    overflow: hidden;
+    padding: 70px;
+}
+
+.MentorSec span {
+    color: #00C2D2;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+}
+
+.MentorSec h2 {}
+
+.MentorSec h2 {
+    color: #323232;
+    font-size: 30px;
+    padding: 15px 0px;
+}
+
+.MentorSec p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 22px;
+}
+.MentorSec span:after {
+	content: '';
+	background: #00C2D2;
+	width: 70px;
+	height: 2px;
+	display: block;
+	position: absolute;
+	right: -85px;
+	top: 14px;
+}
+
+.MentorSec span:before {
+	content: '';
+	background: #00C2D2;
+	width: 70px;
+	height: 2px;
+	display: block;
+	position: absolute;
+	left: -85px;
+	top: 14px;
+}
+
+.MentorFullBox {
+    display: inline-table;
+    padding: 35px 0px;
+}
+
+.MentorPart {
+    float: left;
+    width: 280px;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.MentorPart i {
+    color: #01C2D1;
+    font-size: 38px;
+    padding: 11px;
+}
+
+.MentorPart h2 {
+    color: #464545;
+    padding: 10px;
+}
+
+.MentorPart p {
+    line-height: 27px;
+    color: #383030;
+    font-size: 14px;
+}
