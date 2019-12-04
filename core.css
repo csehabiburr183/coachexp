@@ -374,6 +374,7 @@ section#ThinkSection {
     margin: auto;
     place-items: center;
     display: grid;
+    background-attachment: fixed;
 }
 
 .thinkDifferent {
@@ -625,3 +626,6 @@ section#Project {
     color: #f9f9f9;
     font-size: 15px;
 }
+/*
+================== Project Section End =======================
+*/
