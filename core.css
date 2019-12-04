@@ -125,6 +125,8 @@ header#MainHeader {
     background: #f9f9f9;
     position: sticky;
     top: 0;
+    overflow: hidden;
+    z-index: 44;
 }
 
 ul.PrimaryNav li a {
