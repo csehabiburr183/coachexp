@@ -390,12 +390,15 @@ section#ThinkSection {
 
 a.AppointmentBtn {
     background: #00C2D1;
-    color: #fbfbfb;
+    color: #f7f7f7;
     padding: 15px 16px;
     font-size: 17px;
     border-radius: 4px;
+    transition: all 0.8s;
 }
-
+a.AppointmentBtn:hover {
+    background: #05939e;
+}
 /*
 ============== Feature Section Below ======================
 */
@@ -489,4 +492,136 @@ section#FeaturesSection {
 .featurePart p {
     font-size: 19px;
     color: #2d2d2d;
+}
+
+iframe {
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 7px #d6d6d6;
+}
+
+
+/*
+============= Testmonial Section Below ====================
+*/
+
+.testmonialTitle {
+    margin: auto;
+    text-align: center;
+}
+
+.testmonialTitle span {
+    color: #00C3D3;
+    font-size: 24px;
+    padding: 10px;
+    display: block;
+    position: relative;
+    width: 150px;
+}
+
+.testmonialTitle h2 {
+    width: 500px;
+    color: #545454;
+    font-size: 2.8em;
+    padding: 20px;
+}
+
+
+.testmonialTitle span:after {
+    content: '';
+    background: #00C2D2;
+    width: 70px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: -64px;
+}
+
+.testmonialTitle span:before {
+    content: '';
+    background: #00C2D2;
+    width: 70px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: -64px;
+}
+
+.TestmonialClients {
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.clientsPart {
+    width: 360px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+.clientImg {
+    overflow: hidden;
+    width: 125px;
+    padding-top: 40px;
+}
+
+.clientImg img {border-radius: 50%;}
+
+section#testmonialSection {
+    background: #F2F2F2;
+    padding: 65px;
+}
+.clientsPart h2 {
+    padding: 15px;
+    color: #424040;
+}
+
+.clientsPart h3 {
+    color: #00C3D3;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.clientsPart p {
+	font-size: 16px;
+	line-height: 29px;
+}
+
+
+
+/* Client Section End */
+
+
+/* Project Section Below */
+section#Project {
+    background: linear-gradient(#00000080,#000000a3),url(img/project_bg.jpg) no-repeat;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.ProjectPart {
+    width: 280px;
+    float: left;
+    text-align: center;
+}
+
+.ProjectPart i {
+    color: #00C2D1;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ProjectPart h2 {
+    font-size: 40px;
+    color: #fafbfd;
+    padding: 15px;
+}
+
+.ProjectPart h4 {
+    color: #f9f9f9;
+    font-size: 15px;
 }
