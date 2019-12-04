@@ -393,3 +393,98 @@ a.AppointmentBtn {
     font-size: 17px;
     border-radius: 4px;
 }
+
+/*
+============== Feature Section Below ======================
+*/
+
+.leftFeatures span {
+    color: #01C2D1;
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 70px;
+    position: relative;
+}
+
+section#FeaturesSection {
+    padding: 90px 60px;
+    overflow: hidden;
+}
+
+.leftFeatures span:before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #01C2D1;
+    left: -46px;
+    top: 30px;
+}
+
+.leftFeatures {
+    width: 570px;
+    float: left;
+}
+
+.leftFeatures h2 {
+    color: #333333;
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+.FeatureBox {
+    width: 560px;
+    display: table;
+}
+
+.featurePart {
+    width: 250px;
+    float: left;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 5px;
+}
+
+.rightFeatures {
+    width: 566px;
+    float: right;
+}
+
+.FeatureBox {
+    width: 560px;
+    display: table;
+}
+
+.featurePart {
+    width: 250px;
+    float: left;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 15px 5px;
+}
+
+.rightFeatures {
+    width: 520px;
+    float: right;
+}
+
+.featurePart i {
+    color: #ffffff;
+    font-size: 24px;
+    background: #00C2D1;
+    width: 50px;
+    height: 50px;
+    place-content: center;
+    display: grid;
+    border-radius: 50%;
+}
+
+.featurePart h3 {
+    padding: 12px;
+    color: #606569;
+}
+
+.featurePart p {
+    font-size: 19px;
+    color: #2d2d2d;
+}
