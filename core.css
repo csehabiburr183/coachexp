@@ -1,31 +1,31 @@
 *{
-	margin: 0 auto;
+    margin: 0 auto;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 
 body,html{
-	padding: 0;
-	font-family: 'Lato', sans-serif;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 a{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 ul{
-	list-style: none;
+    list-style: none;
 }
 
 img{
-	max-width: 100%;
+    max-width: 100%;
 }
 
 .container{
-	width: 1140px;
+    width: 1140px;
 }
 .DisFlow{
-	overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -137,7 +137,7 @@ ul.PrimaryNav li a {
 
 /*
 ========================
-	Work Section Below
+    Work Section Below
 ========================
 */
 
@@ -181,7 +181,7 @@ a.ContactWork {
 
 
 /* 
-	Professional Consulting Mentor below  
+    Professional Consulting Mentor below  
 */
 
 
@@ -218,25 +218,25 @@ section#MentorConsultant {
     line-height: 22px;
 }
 .MentorSec span:after {
-	content: '';
-	background: #00C2D2;
-	width: 70px;
-	height: 2px;
-	display: block;
-	position: absolute;
-	right: -85px;
-	top: 14px;
+    content: '';
+    background: #00C2D2;
+    width: 70px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    right: -85px;
+    top: 14px;
 }
 
 .MentorSec span:before {
-	content: '';
-	background: #00C2D2;
-	width: 70px;
-	height: 2px;
-	display: block;
-	position: absolute;
-	left: -85px;
-	top: 14px;
+    content: '';
+    background: #00C2D2;
+    width: 70px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: -85px;
+    top: 14px;
 }
 
 .MentorFullBox {
@@ -259,11 +259,101 @@ section#MentorConsultant {
 
 .MentorPart h2 {
     color: #464545;
-    padding: 10px;
+    padding: 14px;
 }
 
 .MentorPart p {
     line-height: 27px;
     color: #383030;
-    font-size: 14px;
+    font-size: 15px;
+}
+
+
+
+/*
+========================
+    Solution Section
+========================
+*/
+
+
+section#SolutionSection {
+    background: #F2F2F2;
+    padding: 60px;
+    display: grid;
+    overflow: hidden;
+    place-content: center;
+}
+.SolutionTitle span {
+    position: relative;
+    margin-left: 75px;
+    color: #00C2D1;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.SolutionTitle span:before {
+    content: '';
+    background: #00C2D2;
+    width: 57px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: -41px;
+    top: 40px;
+}
+
+.SolutionTitle h2 {
+    padding: 24px;
+    font-size: 37px;
+    color: #545453;
+}
+
+.SolutionTitle {
+    width: 450px;
+    float: left;
+}
+
+
+.SolutionPart {
+    width: 342px;
+    float: left;
+    padding: 0px 0px 40px 0px;
+    background: #FFFFFF;
+    margin: 0px 19px;
+    border-radius: 5px;
+    transition: all 0.6s;
+    box-shadow: 0px 0px 12px 7px #ece9e9;
+}
+.BusinessText {
+    padding: 24px;
+    text-align: justify;
+}
+
+.BusinessText h2 {
+    color: #6a6b6b;
+}
+
+.BusinessText p {
+    color: #2b2d2d;
+    font-size: 17px;
+    padding: 22px 0px;
+    margin-bottom: 12px;
+}
+
+.BusinessText a {
+    background: #01C2D1;
+    color: #f9f9f9;
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 3px;
+    transition: all 0.8s;
+}
+
+.BusinessText a:hover {
+    background: #05939e;
+}
+
+.SolutionPart:hover {
+    box-shadow: 0px 0px 9px 2px #6161618c;
 }
